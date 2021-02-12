@@ -84,6 +84,6 @@ if __name__ == '__main__':
             if limit == 1:
                 # строука нашлась, удаляем.
                 id = get_id(offset)
-                delete_by(id)
+                # delete_by(id)
                 limit = step
             
